@@ -1,8 +1,3 @@
-def main():
-    nimi = input("Anna nimesi: ")
+nimi = input("Anna nimesi: ")
+print("Terve, " + nimi + "!")
 
-    if nimi == "Roope":
-        print("Terve, Roope!")
-
-if __name__ == "__main__":
-    main()
